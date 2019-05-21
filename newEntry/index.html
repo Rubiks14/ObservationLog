@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link type="text/css" rel="stylesheet" href="../css/stylesheet.css">
+    <title>Observation Log | New Entry</title>
+</head>
+<body>
+    <div class="container">
+        <h1>New Entry</h1>
+        <div id="map"></div>
+        <form action="" method="post">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name">
+			  </div>
+			  <div class="form-group">
+                <label for="site">Site</label>
+                <input type="text" name="site" id="site">
+            </div>
+            <div class="form-group">
+                <label for="date">Date</label>
+                <input type="date" name="date" id="date">
+			  </div>
+			  <div class="form-group">
+                <label for="time">Time</label>
+                <input type="time" name="time" id="time">
+            </div>
+            <div class="form-group">
+                <label for="instrument">Instrument</label>
+                <input type="text" name="instrument" id="instrument">
+			  </div>
+			  <div class="form-group">
+                <label for="power">Power</label>
+                <input type="text" name="power" id="power">
+            </div>
+            <div class="form-group">
+                <label for="seeing">Seeing</label>
+                <input type="number" name="seeing" id="seeing">
+			  </div>
+			  <div class="form-group">
+                <label for="transparency">Transparency</label>
+                <input type="number" name="transparency" id="transparency">
+            </div>
+            <div class="form-group">
+                <label for="object">Object</label>
+                <input type="text" name="object" id="object">
+			  </div>
+			  <div class="form-group">
+                <label for="constellation">Constellation</label>
+                <input type="text" name="constellation" id="constellation">
+            </div>
+            <div class="form-group" id="description-area">
+                <label for="description">Description</label>
+                <textarea name="description" id="description"></textarea>
+            </div>
+			  <div class="form-group" id="submit-button">
+			 		<button class="btn">Submit</button>
+			  </div>
+        </form>
+    </div>
+    <script src="../javascript/config.js"></script>
+    <script defer src="../javascript/maps.js"></script>
+</body>
+</html>
