@@ -64,11 +64,25 @@ input:focus, textarea:focus {
 
 .btn {
 	border-radius: 5px;
-	background-color: #4991fa;
 	border: none;
 	color: white;
 	width: 100px;
-	height: 30px;
+	padding: 15px 0;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.btn-accept {
+	background-color: #4991fa;
+}
+
+.btn-cancel {
+	background-color: #f36127;
+}
+
+a.btn {
+	border-bottom: none;
+	text-decoration: none;
 }
 
 /* MAP */
@@ -111,5 +125,16 @@ form > .form-group {
 #submit-button {
 	grid-row-start: 8;
 	grid-row-end: 9;
+	grid-column-start: 1;
+	grid-column-end: 2;
 	padding: 20px 0px 0px 0px;
+}
+
+#cancel-button {
+	grid-row-start: 8;
+	grid-row-end: 9;
+	grid-column-start: 2;
+	grid-column-end: 3;
+	padding: 20px 0px 0px 0px;
+
 }
