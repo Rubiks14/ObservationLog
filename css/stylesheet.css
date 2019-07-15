@@ -122,7 +122,7 @@ form > .form-group {
 
 }
 
-#submit-button {
+#submit-button-area {
 	grid-row-start: 8;
 	grid-row-end: 9;
 	grid-column-start: 1;
@@ -130,7 +130,7 @@ form > .form-group {
 	padding: 20px 0px 0px 0px;
 }
 
-#cancel-button {
+#cancel-button-area {
 	grid-row-start: 8;
 	grid-row-end: 9;
 	grid-column-start: 2;

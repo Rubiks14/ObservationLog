@@ -1,11 +1,11 @@
 document.addEventListener('DOMContentLoaded', function () {
 let myKey = config.MY_KEY;
-if (document.querySelectorAll('#map').length > 0)
-{
-    if (document.querySelector('html').lang)
-    lang = document.querySelector('html').lang;
-    else
-    lang = 'en';
+if (document.getElementById('map') != null) {
+    if (document.querySelector('html').lang) {
+        lang = document.querySelector('html').lang;
+    } else {
+        lang = 'en';
+    }
 
     var js_file = document.createElement('script');
     js_file.type = 'text/javascript';
